@@ -42,6 +42,7 @@ export default {
       }
       return path
     },
+    // 控制侧边栏logo的显隐
     showLogo() {
       return this.$store.state.settings.sidebarLogo
     },
